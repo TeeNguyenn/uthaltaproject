@@ -1,0 +1,138 @@
+/* components/DeviceList.css */
+.action:hover {
+  text-decoration: underline;
+}
+
+.device-list {
+  width: 100%;
+  padding: 24px;
+  background-color: #f5f5f5;
+}
+
+.device-list h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.middleData {
+  display: flex;
+  flex-direction: row;
+}
+
+.filters {
+  display: flex;
+  width: 88%;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+/* Custom styles for Ant Design Table Header */
+.ant-table-thead>tr>th {
+  background-color: #fa8c16;
+  /* Set the orange background color */
+  color: white;
+  /* Set text color to white */
+  text-align: center;
+  /* Align text to center */
+  font-weight: bold;
+  /* Make the font bold */
+  border: none;
+  /* Remove borders for a clean look */
+}
+
+.ant-table-thead>tr>th {
+  padding: 16px;
+}
+
+.ant-table-thead>tr>th::before {
+  height: 100% !important;
+}
+
+/* Scoped styles for specific table */
+.middleData .ant-table-thead>tr>th {
+  background-color: #fa8c16;
+  color: white;
+}
+
+
+/* Custom zebra striping for table rows */
+.middleData .ant-table-tbody>tr:nth-child(odd) {
+  background-color: #fff;
+  /* White background for odd rows */
+}
+
+.middleData .ant-table-tbody>tr:nth-child(even) {
+  background-color: #fff7e6;
+  /* Light orange background for even rows */
+}
+
+.filters .filter {
+  flex-shrink: 0;
+}
+
+.device-table .ant-table {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.device-list .top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.leftFilterItem {
+  display: flex;
+  flex-direction: row;
+}
+
+.filterItem {
+  display: flex;
+  width: 50%;
+  margin-right: 10px;
+  flex-direction: column;
+  justify-content: flex-start;
+  column-gap: 0;
+}
+
+.custom-modal .ant-modal-body {
+  padding: 0;
+  /* Removes the default padding */
+}
+
+.custom-modal-content {
+  height: 100%;
+  width: 100%;
+  /* Add any specific styles for your content here */
+}
+
+.custom-modal .ant-modal-close {
+  color: #ff4d4f;
+}
+
+/* Adjust hover effects for the close button */
+.custom-modal .ant-modal-close:hover {
+  color: hotpink;
+  /* A darker shade for hover */
+}
+
+/* If the close icon is an SVG, you can specifically target it */
+.custom-modal .ant-modal-close-x {
+  font-size: 20px;
+  color: #ff4d4f;
+}
+
+/* Adjust modal header to ensure spacing is preserved */
+.custom-modal .ant-modal-header {
+  padding-right: 48px;
+  /* Adjust if the button is larger or styled differently */
+}
+
+.ant-select-dropdown .rc-virtual-list-holder-inner {
+  transform: 0 !important;
+}

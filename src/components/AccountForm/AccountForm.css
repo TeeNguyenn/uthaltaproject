@@ -1,0 +1,30 @@
+.account-form-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 95%;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  .account-form-title {
+    font-size: 20px;
+    color: #ff7506;
+    margin-bottom: 16px;
+  }
+  
+  .account-form .ant-form-item {
+    margin-bottom: 16px;
+  }
+  
+  .form-actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 16px;
+  }
+  
+  button {
+    border-radius: 4px;
+  }
+  

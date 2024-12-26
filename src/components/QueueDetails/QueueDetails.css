@@ -1,0 +1,50 @@
+.queue-details-container {
+    padding: 24px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .queue-details-title {
+    font-size: 20px;
+    color: #ff7506;
+    margin-bottom: 16px;
+  }
+  
+  .queue-details-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  
+  .queue-details-column {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .queue-detail-item {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .label {
+    font-weight: bold;
+    color: #333;
+    width: 120px;
+  }
+  
+  .value {
+    color: #666;
+    word-wrap: break-word;
+    flex: 1;
+  }
+  
+  .status-indicator {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  

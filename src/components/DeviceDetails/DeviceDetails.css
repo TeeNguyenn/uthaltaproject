@@ -1,0 +1,39 @@
+.device-details-container {
+    padding: 24px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .device-details-title {
+    font-size: 20px;
+    color: #ff7506;
+    margin-bottom: 16px;
+  }
+  
+  .device-details-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .device-info {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .device-info div {
+    margin-bottom: 8px;
+  }
+  
+  .label {
+    font-weight: bold;
+    color: #333;
+    margin-right: 8px;
+  }
+  
+  .value {
+    color: #666;
+    word-wrap: break-word;
+  }
+  

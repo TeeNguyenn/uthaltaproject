@@ -1,0 +1,35 @@
+/* components/UserSection.css */
+.user-section {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .notification-icon {
+    font-size: 20px;
+    color: #ffa940; /* Orange color */
+    cursor: pointer;
+  }
+  
+  .user-info {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .greeting {
+    text-align: left;
+  }
+  
+  .greeting p {
+    margin: 0;
+    font-size: 12px;
+    color: #888;
+  }
+  
+  .greeting h3 {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+  }

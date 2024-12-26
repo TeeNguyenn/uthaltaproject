@@ -1,0 +1,149 @@
+.container {
+    display: flex;
+    background-color: #F6F6F6;
+    ;
+    flex-direction: row;
+}
+
+.left {
+    display: flex;
+    width: 41%;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    width: 59%;
+    background-color: #FFFFFF;
+    height: 100vh;
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.imageContainer {
+    width: 30%;
+    /* aspect-ratio: 3/2; */
+}
+
+.imageLogo {
+    width: 100%;
+    height: 100%;
+}
+
+.login {
+    width: 60%;
+}
+
+.introductionImage {
+    width: 73%;
+    height: 76%;
+}
+
+.text {
+    text-align: start;
+    position: absolute;
+    z-index: 5;
+    transform: translateX(65%);
+}
+
+p {
+    font-size: 22px;
+}
+
+.highlight {
+    color: #fa8c16;
+    font-weight: 800;
+}
+
+.normal {
+    color: #FF7506;
+    font-weight: 400;
+}
+
+
+.input {
+    display: flex;
+    width: 100%;
+    /* temp */
+    padding: 10px 32px 10px 12px;
+
+    border-radius: 8px;
+    border: 1.5px solid #d4d4d7;
+    background: #fff;
+    outline: none;
+}
+
+.input::placeholder {
+    color: #535261;
+}
+
+.input.error {
+    border-color: #e73f3f;
+}
+
+
+.resetpasss {
+    display: flex;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    /* 150% */
+    color: #5185f7;
+    text-decoration: none;
+    /* margin: 16px 0 19px; */
+    transition: 0.2s;
+}
+
+.resetpasss:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    width: 162px;
+    height: 40px;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background: #ff9138;
+    box-shadow: 0px 0px 6px 0px #e7e9f2;
+    color: #fff;
+    font-weight: 700;
+    line-height: 27px;
+    margin: 0 auto;
+    transition: 0.3s;
+
+    &:hover {
+        background-color: #eb791c;
+    }
+}
+
+
+.title,
+.heading {
+    color: #ff7506;
+    font-size: 34px;
+    line-height: 1.2;
+    /* 150% */
+}
+
+.heading {
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 54px;
+    /* 150% */
+}

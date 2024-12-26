@@ -1,0 +1,29 @@
+.new-queue-form-container {
+    padding: 24px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .new-queue-form-title {
+    font-size: 20px;
+    color: #ff7506;
+    margin-bottom: 24px;
+  }
+  
+  .new-queue-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+  }
+  
+  button {
+    border-radius: 4px;
+  }
+  

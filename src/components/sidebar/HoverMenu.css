@@ -1,0 +1,55 @@
+.menu-container {
+  position: relative;
+}
+
+.hover-container {
+  position: relative;
+  display: inline-block;
+}
+
+.menu-item {
+  position: relative;
+  z-index: 1;
+}
+
+.submenu {
+  position: absolute;
+  top: 179px;
+  right: -208px;
+  background-color: #fff;
+  border: 1px solid #f0f0f0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  border-radius: 6px;
+
+}
+
+.submenu .ant-menu {
+
+  border-radius: 6px;
+}
+
+.submenu-content {
+  width: 200px;
+}
+
+.menu {
+  position: relative;
+
+}
+
+.menu .ant-menu-item {
+  transition: background-color 0.3s;
+}
+
+.menu .ant-menu-item:hover {
+  background-color: #f5f5f5;
+}
+
+.logout {
+  color: red;
+}
+
+.logout:hover {
+  color: darkred;
+}

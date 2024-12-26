@@ -1,0 +1,10 @@
+.input.ant-input-affix-wrapper-focused,
+.input.ant-input-outlined:focus,
+.input:hover {
+    border-color: #d4d4d7 !important;
+    box-shadow: none !important;
+}
+
+.input.error {
+    border-color: #e73f3f !important;
+}

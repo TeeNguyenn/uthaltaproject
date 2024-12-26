@@ -1,0 +1,64 @@
+/* components/MainContent/InfoCard.css */
+.info-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-align: left;
+  }
+  
+  .info-card-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .info-card-header .icon {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+  }
+  
+  .info-card-header p {
+    font-size: 14px;
+    color: #595959;
+    margin: 0;
+  }
+  
+  .info-card-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .info-card-body h3 {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+  }
+  
+  .percentage {
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-weight: bold;
+  }
+  
+  .percentage.positive {
+    color: #52c41a;
+    background: rgba(82, 196, 26, 0.1);
+  }
+  
+  .percentage.negative {
+    color: #f5222d;
+    background: rgba(245, 34, 45, 0.1);
+  }
+  

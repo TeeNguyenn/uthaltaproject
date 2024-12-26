@@ -1,0 +1,30 @@
+.device-form-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 24px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .device-form-title {
+    font-size: 20px;
+    color: #ff7506;
+    margin-bottom: 16px;
+  }
+  
+  .device-form .ant-form-item {
+    margin-bottom: 16px;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+  }
+  
+  button {
+    border-radius: 4px;
+  }
+  

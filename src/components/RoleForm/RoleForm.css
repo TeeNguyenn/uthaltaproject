@@ -1,0 +1,43 @@
+.role-form-container {
+    padding: 24px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .role-form-title {
+    font-size: 20px;
+    color: #ff7506;
+    margin-bottom: 16px;
+  }
+  
+  .form-section {
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-section h3 {
+    font-size: 16px;
+    color: #ff7506;
+    margin-bottom: 8px;
+  }
+  
+  .permission-group h4 {
+    font-size: 14px;
+    color: #ff7506;
+    margin-top: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+  }
+  
+  button {
+    border-radius: 4px;
+  }
+  

@@ -1,0 +1,113 @@
+components/RightSidebar/SummaryItem.css .summaryItem {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 10px;
+  padding: 10px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  flex-wrap: nowrap;
+}
+
+.summaryItemLeft {
+  width: 30%;
+  ;
+  /* Fixed width for the left section (e.g., progress circle) */
+  display: flex;
+  aspect-ratio: 1/1;
+  justify-content: center;
+  /* Center the content horizontally */
+  align-items: center;
+  /* Center the content vertically */
+}
+
+.columnFirst {
+  display: flex;
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background: conic-gradient(red 0deg 270deg,
+      transparent 270deg 360deg);
+  align-items: center;
+  justify-content: center;
+}
+
+.summaryItemRight {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+}
+
+.summary-item-right h4 {
+  margin: 0;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.summary-item-right h3 span {
+  font-size: 16px;
+}
+
+.summary-item-right p {
+  margin: 4px 0 12px;
+  font-size: 14px;
+  color: #595959;
+}
+
+.details {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  color: #595959;
+  justify-content: center;
+}
+
+.detailsp {
+  margin: 0;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.details .dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.coverCircle {
+  display: flex;
+  width: 90%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.firstCircle {
+  display: flex;
+  width: 90%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background: conic-gradient(gray 0deg 90deg,
+      transparent 90deg 360deg);
+  align-items: center;
+  justify-content: center;
+}
+
+.innerCircle {
+  display: flex;
+  width: 90%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background: white;
+}

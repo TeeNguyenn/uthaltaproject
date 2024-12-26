@@ -1,0 +1,112 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.left {
+    display: flex;
+    width: 14%;
+    height: 100vh;
+    border: 2px solid blue;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.middle {
+    display: flex;
+    width: 58%;
+    height: 100vh;
+}
+
+.right {
+    display: flex;
+    width: 28%;
+    height: 100vh;
+    border: 2px solid red;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imageContainer {
+    width: 40%;
+    aspect-ratio: 3/2;
+}
+
+.imageLogo {
+    width: 100%;
+    aspect-ratio: 3/2;
+}
+
+/* .calendar {
+    height: 42%;
+    width: 80%;
+    border: 1px solid green;
+    align-items: center;
+    justify-content: center;
+} */
+.user_info {
+    height: 18%;
+    width: 80%;
+    border: 1px solid green;
+}
+
+.rightContainer {
+    display: flex;
+    width: 86%;
+}
+
+.general {
+    height: 40%;
+    width: 80%;
+    border: 1px solid green;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.circle {
+    width: 30%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background: conic-gradient(red 0deg 270deg,
+            /* Adjust start and end angles to set the part with color */
+            white 270deg 360deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-circle {
+    width: 90%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-cirlce {
+    width: 90%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background: conic-gradient(green 0deg 90deg,
+            /* Adjust start and end angles to set the part with color */
+            white 90deg 360deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-circle {
+    display: flex;
+    width: 90%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background: white;
+    /* Background color of the circle */
+    justify-content: center;
+    align-items: center;
+}

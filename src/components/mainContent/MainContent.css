@@ -1,0 +1,75 @@
+/* components/MainContent/MainContent.css */
+.main-content {
+  width: 65%;
+  ;
+  padding: 24px;
+  background-color: #f5f5f5;
+}
+
+.main-content h2 {
+  color: #ff7506;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  margin: 0 0 16px 0;
+
+}
+
+.data-cards {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.data-card {
+  flex: 1;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.data-card h3 {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.data-card .value {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.data-card .percentage {
+  font-size: 12px;
+  color: #52c41a;
+}
+
+.chart {
+  background: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.info-cards {
+  display: flex;
+  justify-content: space-between;
+  /* Space evenly between the cards */
+  gap: 16px;
+  /* Spacing between cards */
+  margin-bottom: 20px;
+}
+
+.chart-header h3 {
+  margin: 0;
+}
+
+.chart-select {
+  width: 120px;
+}

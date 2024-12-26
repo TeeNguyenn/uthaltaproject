@@ -1,0 +1,57 @@
+
+.ticket-display-card {
+  max-width: 400px;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ticket-display-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+
+.ticket-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #535261;
+}
+
+.close-button {
+  font-size: 20px;
+  color: #ff4d4f;
+  cursor: pointer;
+}
+
+.ticket-number {
+  color: #ff7506!important;
+  font-size: 56px;
+  font-weight: 800;
+  margin-top: 16px;
+}
+
+.service-info, .customer-name {
+  font-size: 18px;
+  font-weight: 400;
+  color: #282739;
+  margin: 8px 0;
+}
+
+.ticket-footer {
+  background-color: #ff9138;
+  color: white;
+  padding: 16px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.footer-text {
+  font-size: 22px;
+  display: block;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: 'Times New Roman', Times, serif;
+}
